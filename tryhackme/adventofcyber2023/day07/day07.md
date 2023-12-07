@@ -19,6 +19,7 @@ cut -d ' ' -f3,6 access.log | sort | uniq -c | sort -n
       1 powerautomate.com:443 000
 ```
 *Why is the answer 503? It's not the domain that is least accessed*
+
 503
 
 **Based on the high count of connection attempts, whatis the name of the suspicious domain?**
